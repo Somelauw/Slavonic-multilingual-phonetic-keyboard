@@ -3,6 +3,7 @@ Phonetic keyboard for Russian and other languages
 Is a linux port from the windows keyboard layout found here: http://www.tyflonet.com/siciliano/kbdrutrl.zip
 
 Instructions:
+
 1. Add layout.xml add the ru node in /usr/share/X11/xkb/rules/base.xml
 2. Add layout.xml add the ru node in /usr/share/X11/xkb/rules/fdev.xml
 3. Add layout.part to /usr/share/X11/xkb/symbols/ru
