@@ -1,0 +1,12 @@
+<!--Put this in /usr/share/X11/xkb/rules/{base,fdev}.xml-->
+
+
+        <variant>
+          <configItem>
+            <name>multilingual</name>
+            <description>Slavonic multilingual phonetic keyboard</description>
+            <languageList>
+              <iso639Id>multilingual</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
