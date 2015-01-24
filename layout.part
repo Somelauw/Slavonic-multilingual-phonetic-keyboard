@@ -15,9 +15,11 @@ xkb_symbols "multilingual"
 	key <AB05> { [    Cyrillic_be,    Cyrillic_BE                                 ] }; // б Б 
 	key <AB06> { [    Cyrillic_en,    Cyrillic_EN,   Cyrillic_nje,   Cyrillic_NJE ] }; // н Н њ Њ 
 	key <AB07> { [    Cyrillic_em,    Cyrillic_EM,       NoSymbol,     registered ] }; // м М  ® 
-	key <AB08> { [ Armenian_comma,      semicolon,      leftcaret                 ] }; // , ; < 
-	key <AB09> { [ Armenian_mijaket,          colon,     rightcaret                 ] }; // . : > 
-	key <AB10> { [      KP_Divide,       question,       NoSymbol,          U2030 ] }; // / ?  ‰ 
+	// key <AB08> { [ Armenian_comma,      semicolon,      leftcaret                 ] }; // , ; < 
+	// key <AB09> { [ Armenian_mijaket,          colon,     rightcaret                 ] }; // . : > 
+	key <AB08> { [          comma,      semicolon,      leftcaret                 ] }; // , ; < 
+	key <AB09> { [         period,          colon,     rightcaret                 ] }; // . : > 
+	key <AB10> { [          slash,       question,       NoSymbol,          U2030 ] }; // / ?  ‰ 
 	key <AC01> { [     Cyrillic_a,     Cyrillic_A                                 ] }; // а А 
 	key <AC02> { [    Cyrillic_es,    Cyrillic_ES                                 ] }; // с С 
 	key <AC03> { [    Cyrillic_de,    Cyrillic_DE,          U0495,          U0494 ] }; // д Д ҕ Ҕ 
@@ -47,6 +49,7 @@ xkb_symbols "multilingual"
 	key <AE06> { [       NoSymbol,     quoteright,     asciitilde                 ] }; //  ' ~ 
 	key <AE07> { [       NoSymbol,      ampersand,         KP_Add                 ] }; //  & + 
 	key <AE12> { [ Cyrillic_shcha, Cyrillic_SHCHA,       KP_Equal                 ] }; // щ Щ = 
-	key <BKSL> { [    Cyrillic_io,    Cyrillic_IO,      KP_Divide,            bar ] }; // ё Ё / | 
+	key <BKSL> { [    Cyrillic_io,    Cyrillic_IO,      backslash,            bar ] }; // ё Ё / | 
 	key <TLDE> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, Armenian_guillemotleft,          U2039 ] }; // ъ Ъ « ‹ 
 };
+
