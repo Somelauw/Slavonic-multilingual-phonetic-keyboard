@@ -1,8 +1,8 @@
 # Slavonic-multilingual-phonetic-keyboard
 Phonetic keyboard layout for Russian and other Slavic languages.
-This is a linux version of the keyboard layout found here: http://www.tyflonet.com/siciliano/kbdrutrl.zip .
-It tries to be phonetic for qwerty users while supporting all Slavic languages having Cyrillic alphabets.
-I created it using https://github.com/simos/keyboardlayouteditor .
+This is a Linux version of the keyboard layout for Windows found [here](http://www.tyflonet.com/siciliano/kbdrutrl.zip).
+It tries to be phonetic for qwerty users while supporting the most common Slavic languages with Cyrillic alphabets.
+I created it using [Keyboard layout editor](https://github.com/simos/keyboardlayouteditor).
 
 ## Installation instructions:
 
@@ -19,14 +19,15 @@ For example to use Caps Lock as a toggle key between US and this layout use one 
 
     localectl set-x11-keymap us,ru pc105 ,multilingual grp:caps_toggle
 
-For more information about setting up your keyboard layout, consult https://wiki.archlinux.org/index.php/Keyboard_configuration_in_Xorg
+For more information about setting up your keyboard layout, consult [ArchWiki: Keyboard configuration in Xorg](https://wiki.archlinux.org/index.php/Keyboard_configuration_in_Xorg).
 
 ## Screenshot
 ![Screenshot](https://github.com/Somelauw/Slavonic-multilingual-phonetic-keyboard/blob/master/screenshot.png)
 
-A screenshot of the original can be found at http://kbd-intl.narod.ru/english/layouts
+[Screenshort of the original](http://kbd-intl.narod.ru/images/ru-trl.png)
 
 ## Similar projects
 A different project also supporting most Slavic languages based on the Russian Windows keyboard layout:
 http://chuvash.eu/2015/01/03/creating-a-russian-extended-keyboard-layout/
 
+Many keyboard layouts for different languages for windows can be found here (in fact this is where I found the original version of this layout) http://kbd-intl.narod.ru/english/layouts
