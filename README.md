@@ -24,7 +24,7 @@ For more information about setting up your keyboard layout, consult [ArchWiki: K
 ## Screenshot
 ![Screenshot](https://github.com/Somelauw/Slavonic-multilingual-phonetic-keyboard/blob/master/screenshot.png)
 
-[Screenshort of the original](http://kbd-intl.narod.ru/images/ru-trl.png)
+[Screenshot of the original](http://kbd-intl.narod.ru/images/ru-trl.png)
 
 ## Similar projects
 A different project also supporting most Slavic languages based on the Russian Windows keyboard layout:
