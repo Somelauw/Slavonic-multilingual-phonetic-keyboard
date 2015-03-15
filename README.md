@@ -11,7 +11,7 @@ I created it using [Keyboard layout editor](https://github.com/simos/keyboardlay
 3. Append layout.part to /usr/share/X11/xkb/symbols/ru
 
 ## Usage instructions
-To use this layout either use setkdbmap (sets your keyboard layout for the current X session) or localetc (persistent).
+To use this layout either use setkbmap (sets your keyboard layout for the current X session) or localetc (persistent).
 
 For example to use Caps Lock as a toggle key between US and this layout use one of these commands:
 
@@ -30,4 +30,4 @@ For more information about setting up your keyboard layout, consult [ArchWiki: K
 A different project also supporting most Slavic languages based on the Russian Windows keyboard layout:
 http://chuvash.eu/2015/01/03/creating-a-russian-extended-keyboard-layout/
 
-Many keyboard layouts for different languages for windows can be found here (in fact this is where I found the original version of this layout) http://kbd-intl.narod.ru/english/layouts
+Many keyboard layouts for different languages for Windows can be found [here](http://kbd-intl.narod.ru/english/layouts) (in fact this is where I found the original version of this layout) 
